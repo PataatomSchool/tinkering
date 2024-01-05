@@ -14,4 +14,5 @@ for x in mylist:
 if sumarum >= most:
     print("it is triangle")
 else:
-    print("It is not triangle")
+    print("It is not aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa triangle")
