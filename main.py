@@ -1,10 +1,17 @@
-my_list = []
-for x in range(int(input("> "))):
-    num = int(input(f"{x + 1} num: "))
-    my_list.append(num)
-max_num = my_list[0]
-for num in my_list:
-    if num > max_num:
-        max_num = num
-print(max_num)
-print(max(my_list))
+a = int(input("A> "))
+b = int(input("B> "))
+c = int(input("C> "))
+sumarum = 0
+most = 1
+mylist = [a, b, c]
+for x in mylist:
+    if x >= most:
+        most = x
+
+mylist.remove(most)
+for x in mylist:
+    sumarum += x
+if sumarum >= most:
+    print("it is triangle")
+else:
+    print("It is not triangle")
